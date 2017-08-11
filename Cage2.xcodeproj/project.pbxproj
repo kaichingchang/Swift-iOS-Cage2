@@ -12,6 +12,8 @@
 		387C73DB1F3C82D5009EE934 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387C73D91F3C82D5009EE934 /* Main.storyboard */; };
 		387C73DD1F3C82D5009EE934 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 387C73DC1F3C82D5009EE934 /* Assets.xcassets */; };
 		387C73E01F3C82D5009EE934 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387C73DE1F3C82D5009EE934 /* LaunchScreen.storyboard */; };
+		38F2A3381F3D4FA7000AD7D5 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2A3371F3D4FA7000AD7D5 /* GameController.swift */; };
+		38F2A33A1F3D5007000AD7D5 /* ResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2A3391F3D5007000AD7D5 /* ResultController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		387C73DC1F3C82D5009EE934 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		387C73DF1F3C82D5009EE934 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		387C73E11F3C82D5009EE934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38F2A3371F3D4FA7000AD7D5 /* GameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		38F2A3391F3D5007000AD7D5 /* ResultController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				387C73D51F3C82D5009EE934 /* AppDelegate.swift */,
+				38F2A3371F3D4FA7000AD7D5 /* GameController.swift */,
+				38F2A3391F3D5007000AD7D5 /* ResultController.swift */,
 				387C73D71F3C82D5009EE934 /* ViewController.swift */,
 				387C73D91F3C82D5009EE934 /* Main.storyboard */,
 				387C73DC1F3C82D5009EE934 /* Assets.xcassets */,
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38F2A33A1F3D5007000AD7D5 /* ResultController.swift in Sources */,
 				387C73D81F3C82D5009EE934 /* ViewController.swift in Sources */,
+				38F2A3381F3D4FA7000AD7D5 /* GameController.swift in Sources */,
 				387C73D61F3C82D5009EE934 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +312,7 @@
 				387C73E61F3C82D5009EE934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
